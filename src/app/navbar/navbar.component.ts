@@ -1,5 +1,5 @@
 
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import * as $ from 'jquery';
 
 
@@ -10,7 +10,7 @@ import * as $ from 'jquery';
 })
 export class NavbarComponent implements OnInit {
 
-
+ 
   
 
   constructor() { }

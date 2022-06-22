@@ -13,7 +13,7 @@ import { ServiceUsersService } from '../service-users.service';
 })
 export class UserslistComponent implements OnInit {
 
-
+  filterTerm!: string;
   query: string = '';
 
   constructor( private serviceUser:ServiceUsersService, private router:Router) { }
